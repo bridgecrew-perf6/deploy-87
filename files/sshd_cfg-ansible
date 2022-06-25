@@ -1,0 +1,4 @@
+Match User ansible
+#Address 144.126.159.239/32,209.141.35.6/32,172.104.192.4/32
+  PubkeyAuthentication yes
+  AuthorizedKeysFile /root/.ssh/authorized_keys.ansible

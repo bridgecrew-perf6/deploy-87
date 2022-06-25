@@ -1,0 +1,13 @@
+AcceptEnv LANG LC_*
+PrintMotd no
+
+PermitRootLogin no
+PubkeyAuthentication no
+PasswordAuthentication no
+PermitEmptyPasswords no
+
+ChallengeResponseAuthentication no
+UsePAM no
+X11Forwarding no
+
+Include /etc/ssh/sshd_config.d/*.conf
